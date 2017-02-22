@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About <%= name %></title>
+  </head>
+  <body>
+    <h1> <%= name %></h1>
+    <p> <%= name %> has 4 cubic litres of swag. He likes long walks on the beach
+      and the internet of things
+    </p>
+    <h2> Technologies </h2>
+    <ul>
+        <% technologies.forEach(function(tech) { %>
+            <li><%= tech %></li>
+        <% }); %>   
+
+    </ul>
+
+  </body>
+</html>

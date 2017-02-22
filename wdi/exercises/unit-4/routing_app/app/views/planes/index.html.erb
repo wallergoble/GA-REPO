@@ -1,0 +1,13 @@
+<h1>  Hello from index </h1>
+ 
+<% @planes.each do |plane| %>
+    <main>
+        <section>ID: <% plane[:id]%> 
+            <article>
+                Name:        <%= plane[:name] %>
+                Kind:        <%= plane[:kind] %>
+                Description: <%= plane[:description] %>
+            </article>
+        </section>
+    </main>
+<% end %>

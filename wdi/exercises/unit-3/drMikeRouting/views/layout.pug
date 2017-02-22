@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body(ng-app="moviesApp")
+    block content
+    ui-view Loading...
+    script(src="/angular/angular.min.js")
+    script(src="/angular-ui-router/release/angular-ui-router.min.js")
+    script(src="/javascripts/client.js")

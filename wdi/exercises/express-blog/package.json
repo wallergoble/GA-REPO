@@ -1,0 +1,18 @@
+{
+  "name": "express-blog",
+  "version": "1.0.0",
+  "description": "Swagcercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "swag"
+  },
+  "keywords": [
+    "dookiebutter"
+  ],
+  "author": "swaglord flex",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.3",
+    "express": "^4.14.0"
+  },
+}

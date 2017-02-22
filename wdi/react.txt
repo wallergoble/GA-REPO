@@ -1,0 +1,19 @@
+React Topics
+Virtual DOM
+-uses
+
+
+Flux Architecture
+
+
+Ways to build components
+
+Plan of learning
+
+
+Research Interviewers
+Research company
+
+Lifecycle???
+
+`

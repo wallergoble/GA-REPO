@@ -1,0 +1,10 @@
+<h1> <%= @greeting %> </h1>
+<% @recipes.each do |recipe| %>
+  <ul>
+    <lh><h4><%= recipe.title %></h4></lh>
+    <li><%= recipe.description %></li> q q
+    <li><%=  recipe.made_it_yet ? "Made it" : "Haven't made it yet"  %></li>
+  </ul>
+<% end %>
+
+<a href="/new"><p>New</p></a>

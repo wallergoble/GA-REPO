@@ -1,0 +1,14 @@
+let mongoose = require('mongoose');
+
+let CarSchema = new mongoose.Schema({
+    make: {type : String, required: true },
+    model: {type : String, required: true },
+    year: Number,
+    color: String
+});
+
+CarSchema.methods.print = function() {
+    console.log(this.color + ' ' + this.year + ' ' + 
+                this.make + ' ' + this.model);
+}
+module.exports = mongoose.model('Car', CarSchema);
